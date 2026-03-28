@@ -59,4 +59,18 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    flex: 1;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    height: 100vh;
+    width: 50vh;
+}
+
+
+#logo {
+    max-width: 200px;
 }
