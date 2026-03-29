@@ -85,11 +85,11 @@ body {
 
 
 .logo img {
-  width: 8%;
+  width: max(10%, 2rem);
 }
 
 .logo h1 {
-  font-size: clamp(2rem, 6vw, 7rem);
+  font-size: clamp(2rem, 10vh, 9.375rem);
   color: white;
 }
 
@@ -114,11 +114,12 @@ form {
   height: 50vh;
   align-content: space-evenly; 
   gap: 15px;
+  height: 100vh;
 }
 
 h2 {
-  font-size: 150px;
-  margin-top: 1.5em;
+  font-size: clamp(32px, 10vh, 150px);
+  margin-top: clamp(48px, 10vh, 120px);
   font-family: 'Valentime';
 }
 
