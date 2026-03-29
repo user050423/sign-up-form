@@ -4,6 +4,17 @@
          url('assets/fonts/norsebold-webfont.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'Rubik';
+    src: url('assets/fonts/rubik-regular-webfont.woff') format('woff'),
+         url('assets/fonts/rubik-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Valentime';
+    src: url('assets/fonts/valentime-webfont.woff') format('woff'),
+         url('assets/fonts/valentime-webfont.woff2') format('woff2');
+}
 
 
 *, *::before, *::after {
@@ -55,7 +66,7 @@ body {
   background-size: cover;
 
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   flex-wrap: wrap;
 }
 
@@ -68,7 +79,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   font-family: 'Norse Bold';
 }
 
@@ -77,8 +88,8 @@ body {
   width: 8%;
 }
 
-h1 {
-  font-size: clamp(1.8rem, 5vw, 4rem);
+.logo h1 {
+  font-size: clamp(2rem, 6vw, 7rem);
   color: white;
 }
 
@@ -89,13 +100,9 @@ h1 {
   align-items: center;
   height: 100vh;
   box-shadow: inset 5.5px -5px 10px -9px #dddddd;
-  font-size: 16px;
   justify-content: center;
   color: white;
-}
-
-label {
-  display: block;
+  font-family: 'Rubik';
 }
 
 form {
@@ -103,9 +110,32 @@ form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 50vh;
+  align-content: space-evenly; 
+  gap: 15px;
 }
 
 h2 {
-  font-size: clamp(1.6rem, 4vw, 3.5rem);
+  font-size: 100px;
+  margin-top: 1.5em;
+  font-family: 'Valentime';
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 1.5em;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+input {
+  width: 220px;
+  border-radius: 7px;
+  height: 35px;
+  border: none;
 }
