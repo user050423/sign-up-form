@@ -112,13 +112,12 @@ form {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: flex-start; 
-  gap: 20px;
+  gap: 25px;
   margin: 1em;
 }
 
 h2 {
   font-size: clamp(104px, 9.1vw, 156px);
-  margin-top: clamp(80px, 7vw, 120px);
   font-family: 'Valentime';
 }
 
@@ -145,12 +144,16 @@ input {
 }
 
 button {
-  margin: 0 auto;
+  margin: 20px auto;
   border: none;
   padding: 10px 20px;
   border-radius: 20px;
   color: #1074e7;
   background-color: rgba(198, 254, 129, .3);
-  font-size: 20px;
+  font-size: clamp(16px, 1.4vw, 24px);
   box-shadow: 0 0 22px -10px #1074e7;
+}
+
+#bottom-subtitle {
+  font-size: clamp(16px, 1.4vw, 24px);
 }
