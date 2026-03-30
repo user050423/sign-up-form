@@ -174,7 +174,7 @@ input:focus {
   outline-color: #ef88e1;
 }
 
-input:invalid {
+input:user-invalid {
   outline-color: red;
 }
 
